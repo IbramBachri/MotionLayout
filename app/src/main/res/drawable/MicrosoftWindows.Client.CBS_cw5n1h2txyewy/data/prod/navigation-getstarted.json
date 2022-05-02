@@ -1,0 +1,105 @@
+{
+    "GETSTARTED": {
+        "start": "CheckMSAAccount",
+        "error": "Error",
+        "notifyOnFirstVisible": true,
+        "useBackstackForBackNavigation": true,
+        "reconnectHandler": {
+            "handlerCxid": "NetworkError",
+            "frequency": "Always"
+        },
+        "frameName": "oobe-light-frame",
+        "personality": "CloudExperienceHost.Personality.LiteWhite",
+        "blockLateWebAppCalls": true,
+        "blockEarlyExit": true,
+        "CheckMSAAccount": {
+            "cxid": "CheckMSAAccount",
+            "launcher": "js:CheckMSAAccount",
+            "successID": "LandingPage",
+            "failID": "LandingPageForNonMSA",
+            "visibility": false
+        },
+        "LandingPage": {
+            "cxid": "LandingPage",
+            "url": "https://sdx.microsoft.com/area1/page1/index.html",
+            "urlint": "https://sdx.microsoft-int.com/area1/page1/index.html",
+            "internetRequired": true,
+            "backwardButtonEnabled": false,
+            "successID": "TipsFiles",
+            "failID": "TipsFiles"
+        },
+        "LandingPageForNonMSA": {
+            "cxid": "LandingPage",
+            "url": "https://sdx.microsoft.com/area1/page1/index.html",
+            "urlint": "https://sdx.microsoft-int.com/area1/page1/index.html",
+            "internetRequired": true,
+            "backwardButtonEnabled": false,
+            "successID": "TipsFiles",
+            "failID": "TipsFiles"
+        },
+        "TipsFiles": {
+            "cxid": "TipsFiles",
+            "url": "https://sdx.microsoft.com/area1/page2/index.html",
+            "urlint": "https://sdx.microsoft-int.com/area1/page2/index.html",
+            "internetRequired": true,
+            "successID": "TipsBrowser",
+            "failID": "TipsBrowser"
+        },
+        "TipsBrowser": {
+            "cxid": "TipsBrowser",
+            "url": "app-ext://GetStartedCSharp/WindowsUdk.System.UserProfile.UserOnboardingExtensionFactory?id=gs-browser",
+            "internetRequired": true,
+            "successID": "WelcomeBack",
+            "failID": "WelcomeBack"
+        },
+        "WelcomeBack": {
+            "cxid": "WelcomeBack",
+            "url": "https://sdx.microsoft.com/area1/page3/index.html",
+            "urlint": "https://sdx.microsoft-int.com/area1/page3/index.html",
+            "internetRequired": true,
+            "preloadCheck": "WebExperienceHost.WelcomeBack.SkipCheck",
+            "successID": "TipsUpdate",
+            "failID": "TipsUpdate"
+        },
+        "TipsUpdate": {
+            "cxid": "TipsUpdate",
+            "url": "app-ext://GetStartedCSharp/WindowsUdk.System.UserProfile.UserOnboardingExtensionFactory?id=gs-update",
+            "internetRequired": true,
+            "successID": "GSOutro",
+            "failID": "GSOutro"
+        },
+        "GSOutro": {
+            "cxid": "GSOutro",
+            "url": "app-ext://GetStartedCSharp/WindowsUdk.System.UserProfile.UserOnboardingExtensionFactory?id=gs-goodbye",
+            "forwardButtonEnabled": false,
+            "internetRequired": true
+        },
+        "DashboardNewPage": {
+            "cxid": "DashboardNewPage",
+            "url": "https://sdx.microsoft-int.com/FRX/GSdashboard?mode=mock&cvariants=MockHost",
+            "preloadCheck": "WebExperienceHost.Dashboard.SkipCheck",
+            "successID": "GSOutro",
+            "failID": "GSOutro"
+        },
+        "NetworkError": {
+            "cxid": "NetworkError",
+            "url": "ms-appx-web:///webapps/guidedsetup/network/index.html",
+            "disableBackNavigationToNode": true,
+            "successID": "GSInPlaceResume",
+            "failID": "GSOutro",
+            "disableErrorPageOnFailure": true
+        },
+        "GSInPlaceResume": {
+            "cxid": "GSInPlaceResume",
+            "launcher": "js:InPlaceResume",
+            "failID": "GSOutro",
+            "disableBackNavigationToNode": true
+        },
+        "Error": {
+            "cxid": "Error",
+            "frameAnimation": "errorLottie.json",
+            "url": "ms-appx-web:///webapps/inclusiveOobe/view/oobeError-main.html",
+            "visibility": false
+        }
+    }
+}

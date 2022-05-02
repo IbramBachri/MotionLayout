@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<g id="_x5F_GRID" display="none">
+</g>
+<g id="ICONS">
+	<g>
+		<path fill="#FFFFFF" stroke="#979593" stroke-miterlimit="10" d="M20.0858,2.5H6.5c-0.5523,0-1,0.4477-1,1v25
+			c0,0.5523,0.4477,1,1,1h19c0.5523,0,1-0.4477,1-1V8.9142c0-0.2652-0.1054-0.5196-0.2929-0.7071l-5.4142-5.4142
+			C20.6054,2.6054,20.351,2.5,20.0858,2.5z"/>
+		<path fill="none" stroke="#979593" stroke-miterlimit="10" d="M20.5,2.5v5c0,0.5523,0.4477,1,1,1h5"/>
+	</g>
+	<path fill="#0078D7" d="M17.3274,19.0159l6.5156,2.4434c0.2223,0.0834,0.204,0.4036-0.0263,0.4612l-3.117,0.7792l-0.7792,3.117
+		c-0.0576,0.2303-0.3779,0.2485-0.4612,0.0263l-2.4434-6.5156C16.943,19.1329,17.1329,18.943,17.3274,19.0159z"/>
+	<path fill="none" stroke="#C8C6C4" stroke-linecap="round" stroke-miterlimit="10" d="M10.5,21.5c0.7159-4.704,4.8277-8.4152,10-9"
+		/>
+	<path fill="none" stroke="#0078D7" stroke-miterlimit="10" d="M11.5,25.5h-2c-0.5523,0-1-0.4477-1-1v-2c0-0.5523,0.4477-1,1-1h2
+		c0.5523,0,1,0.4477,1,1v2C12.5,25.0523,12.0523,25.5,11.5,25.5z"/>
+	<path fill="none" stroke="#0078D7" stroke-miterlimit="10" d="M23.5,14.5h-2c-0.5523,0-1-0.4477-1-1v-2c0-0.5523,0.4477-1,1-1h2
+		c0.5523,0,1,0.4477,1,1v2C24.5,14.0523,24.0523,14.5,23.5,14.5z"/>
+	<g>
+		<circle fill="#0078D7" cx="14" cy="15" r="2.5"/>
+		<path fill="#FFFFFF" d="M14,13c1.1045,0,2,0.8954,2,2s-0.8955,2-2,2s-2-0.8954-2-2S12.8955,13,14,13 M14,12
+			c-1.6543,0-3,1.3458-3,3s1.3457,3,3,3s3-1.3458,3-3S15.6543,12,14,12L14,12z"/>
+	</g>
+</g>
+<g id="CENTERED_x5F_MARGINS" display="none">
+	<g display="inline">
+		<g>
+			
+				<rect x="14.5" y="-14.5" transform="matrix(6.123234e-17 -1 1 6.123234e-17 14.5 17.5)" opacity="0.2" fill="#FF00FF" width="3" height="32"/>
+			
+				<rect x="15" y="-15" transform="matrix(6.123234e-17 -1 1 6.123234e-17 15 17)" opacity="0.3" fill="#FF00FF" width="2" height="32"/>
+		</g>
+		<g>
+			<rect x="29" opacity="0.2" fill="#FF00FF" width="3" height="32"/>
+			<rect x="30" opacity="0.3" fill="#FF00FF" width="2" height="32"/>
+		</g>
+		<g>
+			
+				<rect x="14.5" y="14.5" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 46.5 14.5)" opacity="0.2" fill="#FF00FF" width="3" height="32"/>
+			
+				<rect x="15" y="15" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 47 15)" opacity="0.3" fill="#FF00FF" width="2" height="32"/>
+		</g>
+		<g>
+			<rect transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 3 32)" opacity="0.2" fill="#FF00FF" width="3" height="32"/>
+			<rect transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 2 32)" opacity="0.3" fill="#FF00FF" width="2" height="32"/>
+		</g>
+	</g>
+	<g display="inline">
+		<rect x="24" opacity="0.3" fill="#00FFFF" width="8" height="32"/>
+		<rect opacity="0.3" fill="#00FFFF" width="8" height="32"/>
+	</g>
+</g>
+<g id="_x5F_FILE_x5F_CENTER" display="none">
+</g>
+<g id="_x5F_THREE_x5F_HEIGHTS" display="none">
+	<rect y="10" display="inline" opacity="0.2" fill="#F7931E" width="32" height="16"/>
+</g>
+<g id="FOLDER_x5F_INCIDACTORS" display="none">
+</g>
+</svg>
